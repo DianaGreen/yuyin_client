@@ -6,7 +6,7 @@ function sendRecord(src) {
     //服务器地址
     // url: "http://192.168.1.103:9088/baiduAI2/recognition"
 
-    url: "http://39.97.116.177:9088/baiduAI2/recognition",
+    url: "http://192.168.43.179:9088/baiduAI2/recognition",
 
 
     filePath: src,
@@ -52,7 +52,8 @@ Page({
     poster: '',
     name: '自己的录音',
     author: 'yonga',
-    src: ""
+    src: "",
+    micPic: '/images/microphone.png',
   },
   // 按下按钮的时候触发
   startrecorderHandel() {

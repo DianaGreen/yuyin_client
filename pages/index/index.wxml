@@ -1,5 +1,10 @@
-<button type='default' style='height:10rem' bindtouchstart='startrecorderHandel' bindtouchend="sendrecorderHandel">按下开始录音</button>
-<view>
+<!-- <button type='default' style='height:10rem' bindtouchstart='startrecorderHandel' bindtouchend="sendrecorderHandel">按下开始录音</button> -->
+
+    <view class="title-pic">
+        <button type='default' bindtouchstart='startrecorderHandel' bindtouchend="sendrecorderHandel"><image src="{{micPic}}" /></button>
+    </view>
+
+<view  class="list-pic">
   你说的话是:
   <view>
     {{msg}}
