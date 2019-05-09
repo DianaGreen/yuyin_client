@@ -1,0 +1,40 @@
+.control-list {
+  position: relative;
+  width: 650rpx;
+  height: 400rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  border-radius: 20rpx;
+  -webkit-box-shadow: 0px 0px 20px #9c9c9c;
+  box-shadow: 0px 0px 20px #9c9c9c;
+  display: flex;
+  align-items: center;
+}
+.the-light{
+ background: linear-gradient(to right, #FFECC7, #E8C2B5);
+}
+.the-curtain{
+  background: linear-gradient(to right, #BEC1FF, #A2D2E8);
+}
+
+.control-list .start-image{
+  margin-left: 10rpx;
+  width: 180rpx;
+  height: 220rpx;
+}
+.control-list .end-image{
+  margin-left: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.control-list .name {
+ margin-left: 30rpx;
+ width:110rpx;
+  font-size: 35rpx;
+}
+
+.control-list .status {
+  width:150rpx;
+  font-size: 30rpx;
+}

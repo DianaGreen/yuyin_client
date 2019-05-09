@@ -1,61 +1,27 @@
 /**index.wxss**/
-/* .userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
-} */
-
 
 .title-pic{
-    width: 80%;
-    height: 275rpx;
+    position: relative;
+    top: 550rpx;
     margin: 0 auto;
-    /* margin-top: 40rpx; */
-    border-radius: 20rpx;
-    -webkit-box-shadow:0px 0px 20px #9C9C9C;
-    box-shadow:0px 0px 20px #9C9C9C;
-    
-}
-.title-pic button{
-    height: 300rpx;
-    width: 100%;
-    border-radius: 20rpx;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #24c9ff;
 }
-.title-pic button  image{
-    height: 120rpx;
-    width: 120rpx;
-}
-.title-pic button :active{
-      background-color: #24c9ff;
+.title-pic   image{
+    height: 350rpx;
+    width: 350rpx;
 }
 .list-pic{
-    height: 100rpx;
+    height: 60rpx;
     width: 80%;
     white-space: nowrap;
     display: flex;    
     margin: 0 auto;
-    margin-top: 45rpx;
+    position: relative;
+    top: 200rpx;
     overflow: hidden;
-     border-radius: 20rpx;
-    border: 5rpx solid #24c9ff;
-   /* background-color: #b1bbf8; */
+    border-bottom: 5rpx solid #5be2d6;
 }
+

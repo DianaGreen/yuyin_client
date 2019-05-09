@@ -1,0 +1,31 @@
+<view class="device-list">
+  <image src="{{wdPic}}" />
+  <text class="name">温度</text>
+  <text class="data">{{wdData}}</text>
+</view>
+<view class="device-list">
+  <image src="{{sdPic}}" />
+  <text class="name">湿度</text>
+  <text class="data">{{sdData}}</text>
+</view>
+<view class="device-list">
+  <image src="{{airPic}}" />
+  <text class="name">PM2.5</text>
+  <text class="data">{{airData}}</text>
+</view>
+<view class="device-list">
+  <image src="{{rainPic}}" />
+  <text class="name">雨量</text>
+  <text class="data">{{rainData}}</text>
+</view>
+<view class="device-list">
+  <image src="{{gasPic}}" />
+  <text class="name">可燃气</text>
+  <text class="data">{{gasData}}</text>
+</view>
+<view class="device-list">
+  <image src="{{firePic}}" />
+  <text class="name">火焰警报</text>
+  <text class="data">{{fireData}}</text>
+</view>
+<view class='device-btn'>刷新设备信息</view>

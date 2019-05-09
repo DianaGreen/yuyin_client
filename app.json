@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/other/other",
+    "pages/inquire/inquire",
     "pages/index/index",
     "images"
   ],
@@ -8,5 +10,31 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#496069",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "语音控制",
+        "iconPath": "images/yuyin.png",
+        "selectedIconPath": "images/yuyin_select.png"
+      },
+      {
+        "pagePath": "pages/other/other",
+        "text": "按键控制",
+        "iconPath": "images/button.png",
+        "selectedIconPath": "images/button_select.png"
+      },
+      {
+        "pagePath": "pages/inquire/inquire",
+        "text": "设备查询",
+        "iconPath": "images/device.png",
+        "selectedIconPath": "images/device_select.png"
+      }
+    ]
   }
 }
