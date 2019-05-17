@@ -5,17 +5,17 @@ Page({
    */
   data: {
     wdPic: '/images/temperature.png',
-    wdData: '27',
+    wdData: '— —',
     sdPic: '/images/humidity.png',
-    sdData: '77',
+    sdData: '— —',
     airPic: '/images/air.png',
-    airData: '优',
+    airData: '— —',
     rainPic: '/images/rain.png',
-    rainData: '80%',
+    rainData: '— —',
     gasPic: '/images/gas.png',
-    gasData: '安全',
+    gasData: '— —',
     firePic: '/images/fire.png',
-    fireData: '安全',
+    fireData: '— —',
   },
   getDeviceHandel(){
     const that = this;

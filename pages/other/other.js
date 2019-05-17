@@ -1,7 +1,5 @@
 
-
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -9,8 +7,8 @@ Page({
     curtainPic: '/images/curtain.png',
     lightPic: '/images/light.png',
     btnPic: '/images/button.png',
-    lightData:'已开灯',
-    curtainData:'窗帘已打开',
+    lightData:'— —',
+    curtainData:'— —',
   },
   getLightHandel() {
     const that = this;
