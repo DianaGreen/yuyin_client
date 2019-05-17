@@ -2,11 +2,11 @@
   <image  class="start-image" src="{{lightPic}}" />
   <text class="name">灯：</text>
   <text class="status">{{lightData}}</text>
-   <image class="end-image"  src="{{btnPic}}" />
+   <image bindtap='getLightHandel'  class="end-image"  src="{{btnPic}}" />
 </view>
 <view class="control-list the-curtain">
   <image  class="start-image" src="{{curtainPic}}" />
   <text class="name">窗帘：</text>
   <text class="status">{{curtainData}}</text>
-   <image class="end-image" src="{{btnPic}}" />
+   <image bindtap='getCurtainHandel' class="end-image" src="{{btnPic}}" />
 </view>

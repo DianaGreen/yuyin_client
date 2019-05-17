@@ -1,7 +1,5 @@
 
-
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -19,8 +17,26 @@ Page({
     firePic: '/images/fire.png',
     fireData: '安全',
   },
-
-
+  getDeviceHandel(){
+    const that = this;
+    wx.request({
+      url: "http://39.97.116.177:9088/baiduAI2/getdevice", // 仅为示例，并非真实的接口地址
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success(res) {
+        console.log(res.data)
+        that.setData({
+          wdData: res.data.data.wdData,
+          sdData: res.data.data.sdData,
+          airData: res.data.data.airData,
+          rainData: res.data.data.rainData,
+          gasData: res.data.data.gasData,
+          fireData: res.data.data.fireData,
+        })
+      }
+    })
+  },
 
 
   /**
@@ -34,7 +50,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    this.getDeviceHandel();
   },
 
   /**

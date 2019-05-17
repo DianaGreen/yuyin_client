@@ -14,7 +14,7 @@
  background: linear-gradient(to right, #FFECC7, #E8C2B5);
 }
 .the-curtain{
-  background: linear-gradient(to right, #BEC1FF, #A2D2E8);
+  background: linear-gradient(to right, #A2D2E8, #BEC1FF);
 }
 
 .control-list .start-image{

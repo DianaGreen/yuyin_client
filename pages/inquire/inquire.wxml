@@ -28,4 +28,4 @@
   <text class="name">火焰警报</text>
   <text class="data">{{fireData}}</text>
 </view>
-<view class='device-btn'>刷新设备信息</view>
+<view bindtap='getDeviceHandel' class='device-btn'>刷新设备信息</view>
